@@ -1,0 +1,3 @@
+model,accuracy,precision,recall,f1_score
+Logistic Regression,0.914,0.94,0.701,0.803
+Naive Bayes,0.914,0.94,0.701,0.803

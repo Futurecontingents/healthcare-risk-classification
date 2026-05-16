@@ -1,0 +1,9 @@
+group,high_cost_rate
+smoker=no,0.075
+smoker=yes,0.931
+bmi=normal,0.212
+bmi=overweight,0.238
+bmi=obese,0.27
+age=young,0.223
+age=middle,0.263
+age=older,0.262
