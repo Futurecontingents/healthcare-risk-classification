@@ -33,6 +33,10 @@ One thing I focused on was being able to explain every part of the project in an
 
 ## Dataset Description
 
+The project uses the public **Medical Cost Personal Datasets** dataset from Kaggle:
+
+ [oai_citation:0‡kaggle.com](https://www.kaggle.com/datasets/mirichoi0218/insurance?utm_source=chatgpt.com)
+
 The dataset contains 1,338 insurance records with the following columns:
 
 - `age`: age of the insurance beneficiary
@@ -100,12 +104,11 @@ The report and notebook explain:
 ├── outputs/
 │   ├── figures/
 │   └── tables/
-├── src/
-│   ├── preprocessing.py
-│   ├── models.py
-│   ├── evaluation.py
-│   └── visualization.py
-└── interview_notes.md
+└── src/
+    ├── preprocessing.py
+    ├── models.py
+    ├── evaluation.py
+    └── visualization.py
 ```
 
 ## How To Run
@@ -185,6 +188,3 @@ I learned that interpretable models still require careful explanation. Logistic 
 
 One interesting observation was that smoking status separated the high-cost and not-high-cost groups quite strongly in this dataset. That is an association in the data, not proof of medical causation.
 
-## CV-Ready Project Description
-
-Built an interpretable healthcare risk classification project using Python, scikit-learn and LaTeX, comparing logistic regression and Naive Bayes on a public medical insurance dataset, with emphasis on probability interpretation, Bayes theorem, coefficient analysis and model evaluation.
